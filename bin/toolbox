@@ -1,0 +1,220 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Filesystem\Filesystem;
+use Symfony\Component\Finder\Finder;
+
+$application = new Application( 'WordPress Pay Logos', '1.0.0' );
+
+$application
+	->register( 'svg-png' )
+	->addOption(
+		'dir',
+		'd',
+		InputOption::VALUE_REQUIRED,
+		'Directory to scan for SVG files.',
+		__DIR__ . '/../src/'
+	)
+	->addOption(
+		'tool',
+		't',
+		InputOption::VALUE_REQUIRED,
+		'Tool to convert SVG to PNG.',
+		'Inkscape'
+	)
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$tool = $input->getOption( 'tool' );
+
+		$extension = '.svgcleaner-min.svg';
+
+		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
+
+		$finder = new Finder();
+
+		$finder->in( $dir->getRealPath() )->files()->name( '*' . $extension );
+
+		foreach ( $finder as $file ) {			
+			echo $file->getRealPath(), PHP_EOL;
+
+			$filename = $file->getFilename();
+
+			echo $filename, PHP_EOL;
+
+			$result = preg_match( '/-(?<width>\d*)x(?<height>\d*)./', $filename, $matches );
+
+			if ( ! array_key_exists( 'width', $matches ) ) {
+				continue;
+			}
+
+			if ( ! array_key_exists( 'height', $matches ) ) {
+				continue;
+			}
+
+			$width  = $matches['width'];
+			$height = $matches['height'];
+
+			$info = new SplFileInfo( $file->getRealPath() );
+
+			$densities = array(
+				'1' => (object) array(
+					'factor'    => 1,
+					'extension' => '.png',
+				),
+				'2' => (object) array(
+					'factor'    => 2,
+					'extension' => '@2x.png',
+				),
+				'3' => (object) array(
+					'factor'    => 3,
+					'extension' => '@3x.png',
+				),
+				'4' => (object) array(
+					'factor'    => 4,
+					'extension' => '@4x.png',
+				),
+			);
+
+			foreach ( $densities as $density ) {
+				$png = $info->getPath() . '/' . $info->getBasename( $extension ) . $density->extension;
+
+				$w = $width * $density->factor;
+				$h = $height * $density->factor;
+
+				$command = sprintf(
+					'inkscape --export-png=%s --export-width=%d --export-height=%d %s',
+					$png,
+					$w,
+					$h,
+					$file->getRealPath()
+				);
+
+				echo $command, PHP_EOL;
+
+				if ( 'ImageMagick' === $tool ) {
+					$command = sprintf(
+						'convert -background transparent -resize %dx%d %s %s',
+						$w,
+						$h,
+						$file->getRealPath(),
+						$png
+					);
+
+					echo $command, PHP_EOL;
+				}
+
+				if ( 'SVG Converter' === $tool ) {
+					$command = sprintf(
+						'rsvg-convert -w %d -h %d %s -o %s',
+						$w,
+						$h,
+						$file->getRealPath(),
+						$png
+					);
+
+					echo $command, PHP_EOL;
+				}
+
+				passthru( $command );
+			}
+		}
+	} );
+
+$application
+	->register( 'png-min' )
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$filesystem = new Filesystem();
+
+		$finder = new Finder();
+
+		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
+		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
+
+		$finder->in( $dir_src->getRealPath() )->files()->name( '*.png' );
+
+		foreach ( $finder as $file ) {
+			$relative = $filesystem->makePathRelative( $file->getRealPath(), $dir_src->getRealPath() );
+			$relative = rtrim( $relative, '/' );
+
+			$output = $dir_dist->getRealPath() . '/' . $relative;
+
+			$command = sprintf(
+				'pngquant %s --output %s --force',
+				$file->getRealPath(),
+				$output
+			);
+
+			echo $command, PHP_EOL;
+
+			passthru( $command );
+		}
+	} );
+$application
+	->register( 'svg-min' )
+	->addOption(
+		'dir',
+		'd',
+		InputOption::VALUE_REQUIRED,
+		'Directory to scan for SVG files.',
+		__DIR__ . '/../src/'
+	)
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$filesystem = new Filesystem();
+
+		$finder = new Finder();
+
+		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
+
+		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
+		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
+
+		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
+
+		foreach ( $finder as $file ) {
+			$relative = $filesystem->makePathRelative( $file->getRealPath(), $dir_src->getRealPath() );
+			$relative = rtrim( $relative, '/' );
+
+			$output = $dir_dist->getRealPath() . '/' . $relative;
+
+			$command = sprintf(
+				'svgo %s --output %s',
+				$file->getRealPath(),
+				$output
+			);
+
+			echo $command, PHP_EOL;
+
+			passthru( $command );
+		}
+	} );
+
+$application
+	->register( 'svgcleaner' )
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$finder = new Finder();
+
+		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
+
+		$finder->in( $dir_src->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
+
+		foreach ( $finder as $file ) {
+			$output = $file->getPath() . '/' . $file->getBasename( '.' . $file->getExtension() ) . '.svgcleaner-min.svg';
+
+			$command = sprintf(
+				'svgcleaner %s %s',
+				$file->getRealPath(),
+				$output
+			);
+
+			echo $command, PHP_EOL;
+
+			passthru( $command );
+		}
+	} );
+
+$application->run();
