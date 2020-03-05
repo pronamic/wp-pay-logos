@@ -162,7 +162,7 @@ $application
 
 		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
 
-		$finder->in( $dir_src->getRealPath() )->files()->name( '*.svg' );
+		$finder->in( $dir_src->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
 
 		foreach ( $finder as $file ) {
 			$output = $file->getPath() . '/' . $file->getBasename( '.' . $file->getExtension() ) . '.svgcleaner-min.svg';
