@@ -31,19 +31,15 @@ $application
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$tool = $input->getOption( 'tool' );
 
-		$dir  = new SplFileInfo( $input->getOption( 'dir' ) );
+		$extension = '.svgcleaner-min.svg';
 
-		$iterator = new RecursiveDirectoryIterator( $dir );
+		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
 
-		$iterator = new RecursiveIteratorIterator( $iterator );
+		$finder = new Finder();
 
-		//$iterator = new RegexIterator( $iterator, '/^.+\.svg$/i', RecursiveRegexIterator::GET_MATCH );
+		$finder->in( $dir->getRealPath() )->files()->name( '*' . $extension );
 
-		foreach ( $iterator as $file ) {
-			if ( 'svg' !== $file->getExtension() ) {
-				continue;
-			}
-			
+		foreach ( $finder as $file ) {			
 			echo $file->getRealPath(), PHP_EOL;
 
 			$filename = $file->getFilename();
@@ -85,7 +81,7 @@ $application
 			);
 
 			foreach ( $densities as $density ) {
-				$png = $info->getPath() . '/' . $info->getBasename( '.' . $info->getExtension() ) . $density->extension;
+				$png = $info->getPath() . '/' . $info->getBasename( $extension ) . $density->extension;
 
 				$w = $width * $density->factor;
 				$h = $height * $density->factor;
@@ -149,6 +145,30 @@ $application
 
 			$command = sprintf(
 				'pngquant %s --output %s',
+				$file->getRealPath(),
+				$output
+			);
+
+			echo $command, PHP_EOL;
+
+			passthru( $command );
+		}
+	} );
+
+$application
+	->register( 'svgcleaner' )
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$finder = new Finder();
+
+		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
+
+		$finder->in( $dir_src->getRealPath() )->files()->name( '*.svg' );
+
+		foreach ( $finder as $file ) {
+			$output = $file->getPath() . '/' . $file->getBasename( '.' . $file->getExtension() ) . '.svgcleaner-min.svg';
+
+			$command = sprintf(
+				'svgcleaner %s %s',
 				$file->getRealPath(),
 				$output
 			);
