@@ -144,7 +144,7 @@ $application
 			$output = $dir_dist->getRealPath() . '/' . $relative;
 
 			$command = sprintf(
-				'pngquant %s --output %s',
+				'pngquant %s --output %s --force',
 				$file->getRealPath(),
 				$output
 			);
