@@ -11,6 +11,7 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 - Added extra sizes: @2, @3, @4.
 - Improved SVG to PNG via `svgcleaner`.
 - Added iDEAL issuer icons by Mollie.
+- Replaced Rabobank logo with better version.
 
 ## [1.1.0] - 2020-03-02
 - Added Apple Pay SVG logo 640×360.
