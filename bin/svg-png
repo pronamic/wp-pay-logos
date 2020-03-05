@@ -34,21 +34,40 @@ foreach ( $iterator as $file ) {
 	$info = new SplFileInfo( $file->getRealPath() );
 
 	$densities = array(
-		'1' => 1,
-		'2' => 2,
-		'3' => 3,
-		'4' => 4,
+		'1' => (object) array(
+			'factor'    => 1,
+			'extension' => '.png',
+		),
+		'2' => (object) array(
+			'factor'    => 2,
+			'extension' => '@2x.png',
+		),
+		'3' => (object) array(
+			'factor'    => 3,
+			'extension' => '@3x.png',
+		),
+		'4' => (object) array(
+			'factor'    => 4,
+			'extension' => '@4x.png',
+		),
 	);
 
-	$png = $info->getPath() . '/' . $info->getBasename( '.' . $info->getExtension() ) . '.png';
+	foreach ( $densities as $density ) {
+		$png = $info->getPath() . '/' . $info->getBasename( '.' . $info->getExtension() ) . $density->extension;
 
-	$command = sprintf(
-		'inkscape --export-png=%s --export-width=%d --export-height=%d %s',
-		$png,
-		$width,
-		$height,
-		$file->getRealPath()
-	);
+		$w = $width * $density->factor;
+		$h = $height * $density->factor;
 
-	passthru( $command );
+		$command = sprintf(
+			'inkscape --export-png=%s --export-width=%d --export-height=%d %s',
+			$png,
+			$w,
+			$h,
+			$file->getRealPath()
+		);
+
+		echo $command, PHP_EOL;
+
+		passthru( $command );
+	}
 }
