@@ -7,6 +7,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 - Changed directory/file structure.
 - Added payment method icons for WooCommerce gateways.
+- Added toolbox application to convert and minify assets.
+- Added extra sizes: @2, @3, @4.
+- Improved SVG to PNG via `svgcleaner`.
 
 ## [1.1.0] - 2020-03-02
 - Added Apple Pay SVG logo 640×360.
