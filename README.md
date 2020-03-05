@@ -12,7 +12,20 @@
 
 ## Table of contents
 
+- [CDN](#cdn)
+	- [jsDelivr](#jsdelivr)
+	- [UNPKG](#unpkg)
 - [SVGO](#svgo)
+
+## CDN
+
+### jsDelivr
+
+https://www.jsdelivr.com/package/npm/@wp-pay/logos
+
+### UNPKG
+
+https://unpkg.com/browse/@wp-pay/logos
 
 ## SVGO
 
