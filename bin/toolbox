@@ -156,15 +156,24 @@ $application
 	} );
 $application
 	->register( 'svg-min' )
+	->addOption(
+		'dir',
+		'd',
+		InputOption::VALUE_REQUIRED,
+		'Directory to scan for SVG files.',
+		__DIR__ . '/../src/'
+	)
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$filesystem = new Filesystem();
 
 		$finder = new Finder();
 
+		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
+
 		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
 		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
 
-		$finder->in( $dir_src->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
+		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
 
 		foreach ( $finder as $file ) {
 			$relative = $filesystem->makePathRelative( $file->getRealPath(), $dir_src->getRealPath() );
