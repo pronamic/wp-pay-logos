@@ -154,6 +154,35 @@ $application
 			passthru( $command );
 		}
 	} );
+$application
+	->register( 'svg-min' )
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$filesystem = new Filesystem();
+
+		$finder = new Finder();
+
+		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
+		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
+
+		$finder->in( $dir_src->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
+
+		foreach ( $finder as $file ) {
+			$relative = $filesystem->makePathRelative( $file->getRealPath(), $dir_src->getRealPath() );
+			$relative = rtrim( $relative, '/' );
+
+			$output = $dir_dist->getRealPath() . '/' . $relative;
+
+			$command = sprintf(
+				'svgo %s --output %s',
+				$file->getRealPath(),
+				$output
+			);
+
+			echo $command, PHP_EOL;
+
+			passthru( $command );
+		}
+	} );
 
 $application
 	->register( 'svgcleaner' )
