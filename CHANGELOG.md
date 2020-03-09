@@ -5,7 +5,14 @@ All notable changes to this project will be documented in this file.
 This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased][unreleased]
--
+- Added WooCommerce Bitcoin icon.
+- Added WooCommerce Bunq icon.
+- Added WooCommerce EPS icon.
+- Added WooCommerce Focum icon.
+- Added WooCommerce Gulden icon.
+- Added WooCommerce iDEAL QR icon.
+- Added WooCommerce In3 icon.
+- Added WooCommerce Payconiq icon.
 
 ## [1.2.0] - 2020-03-05
 - Changed directory/file structure.
