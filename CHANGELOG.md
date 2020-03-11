@@ -16,7 +16,10 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 - Replaced Klarna logo.
 - Replaced bank transfer logo.
 - Added credit card logo.
-
+- Added direct debit logo.
+- Added direct debit mandate via Bancontact logo.
+- Added direct debit mandate via iDEAL logo.
+- Added direct debit mandate via Sofort logo.
 
 ## [1.2.0] - 2020-03-05
 - Changed directory/file structure.
