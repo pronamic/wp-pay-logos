@@ -13,8 +13,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 - Added WooCommerce iDEAL QR icon.
 - Added WooCommerce In3 icon.
 - Added WooCommerce Payconiq icon.
-- Replaced Klarna logos.
-- Replaced bank transfer logos.
+- Replaced Klarna logo.
+- Replaced bank transfer logo.
+- Added credit card logo.
 
 
 ## [1.2.0] - 2020-03-05
