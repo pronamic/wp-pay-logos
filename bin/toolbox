@@ -217,4 +217,15 @@ $application
 		}
 	} );
 
+$application
+	->register( 'all' )
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$application = $this->getApplication();
+
+		$application->find( 'svgcleaner' )->run( $input, $output );
+		$application->find( 'svg-min' )->run( $input, $output );
+		$application->find( 'svg-png' )->run( $input, $output );
+		$application->find( 'png-min' )->run( $input, $output );
+	} );
+
 $application->run();
