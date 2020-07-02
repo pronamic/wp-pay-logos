@@ -1,0 +1,12 @@
+# .npmignore - https://docs.npmjs.com/using-npm/developers.html#keeping-files-out-of-your-package
+
+# Bin
+/bin/
+
+# Source
+/src/
+
+# Composer
+/vendor/
+/composer.json
+/composer.lock

@@ -87,7 +87,7 @@ $application
 				$h = $height * $density->factor;
 
 				$command = sprintf(
-					'inkscape --export-png=%s --export-width=%d --export-height=%d %s',
+					'inkscape --export-filename=%s --export-width=%d --export-height=%d %s',
 					$png,
 					$w,
 					$h,
