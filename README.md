@@ -32,3 +32,21 @@ https://unpkg.com/browse/@wp-pay/logos
 ```
 svgo -r -f ./src -o ./dist
 ```
+
+## Toolbox
+
+### Examples
+
+```
+bin/toolbox all
+```
+
+```
+bin/toolbox all --dir=src/methods/maestro
+bin/toolbox all --dir=src/methods/mastercard
+```
+
+## Resources
+
+*	https://brand.mastercard.com/brandcenter/other-marks.html
+*	https://brand.mastercard.com/brandcenter/mastercard-brand-mark/downloads.html
