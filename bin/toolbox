@@ -127,15 +127,24 @@ $application
 
 $application
 	->register( 'png-min' )
+	->addOption(
+		'dir',
+		'd',
+		InputOption::VALUE_REQUIRED,
+		'Directory to scan for SVG files.',
+		__DIR__ . '/../src/'
+	)
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$filesystem = new Filesystem();
 
 		$finder = new Finder();
 
+		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
+
 		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
 		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
 
-		$finder->in( $dir_src->getRealPath() )->files()->name( '*.png' );
+		$finder->in( $dir->getRealPath() )->files()->name( '*.png' );
 
 		foreach ( $finder as $file ) {
 			$relative = $filesystem->makePathRelative( $file->getRealPath(), $dir_src->getRealPath() );
@@ -195,10 +204,20 @@ $application
 
 $application
 	->register( 'svgcleaner' )
+	->addOption(
+		'dir',
+		'd',
+		InputOption::VALUE_REQUIRED,
+		'Directory to scan for SVG files.',
+		__DIR__ . '/../src/'
+	)
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$finder = new Finder();
 
+		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
+
 		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
+		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
 
 		$finder->in( $dir_src->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
 
@@ -219,6 +238,13 @@ $application
 
 $application
 	->register( 'all' )
+	->addOption(
+		'dir',
+		'd',
+		InputOption::VALUE_REQUIRED,
+		'Directory to scan for files.',
+		__DIR__ . '/../src/'
+	)
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$application = $this->getApplication();
 
