@@ -7,6 +7,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.6.1] - 2020-08-18
+- Improved ratio of Maestro and MasterCard logo.
+
 ## [1.6.0] - 2020-07-10
 - Added Contact Form 7 logo.
 
