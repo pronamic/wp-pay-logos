@@ -52,8 +52,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.6.0...HEAD
-[1.5.0]: https://github.com/wp-pay/logos/compare/1.5.0...1.6.0
+[unreleased]: https://github.com/wp-pay/logos/compare/1.6.1...HEAD
+[1.6.1]: https://github.com/wp-pay/logos/compare/1.6.0...1.6.1
+[1.6.0]: https://github.com/wp-pay/logos/compare/1.5.0...1.6.0
 [1.5.0]: https://github.com/wp-pay/logos/compare/1.4.0...1.5.0
 [1.4.0]: https://github.com/wp-pay/logos/compare/1.3.0...1.4.0
 [1.3.0]: https://github.com/wp-pay/logos/compare/1.2.0...1.3.0
