@@ -7,6 +7,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.6.3] - 2020-10-30
+- Replaced iDEAL logo with the new one.
+
 ## [1.6.2] - 2020-08-18
 - Improved ratio of Maestro and MasterCard logo from official channels.
 
@@ -55,7 +58,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.6.2...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.6.3...HEAD
+[1.6.3]: https://github.com/wp-pay/logos/compare/1.6.2...1.6.3
 [1.6.2]: https://github.com/wp-pay/logos/compare/1.6.1...1.6.2
 [1.6.1]: https://github.com/wp-pay/logos/compare/1.6.0...1.6.1
 [1.6.0]: https://github.com/wp-pay/logos/compare/1.5.0...1.6.0
