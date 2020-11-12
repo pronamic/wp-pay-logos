@@ -16,6 +16,8 @@
 	- [jsDelivr](#jsdelivr)
 	- [UNPKG](#unpkg)
 - [SVGO](#svgo)
+- [Sizes](#sizes)
+- [Center](#center)
 
 ## CDN
 
@@ -32,6 +34,33 @@ https://unpkg.com/browse/@wp-pay/logos
 ```
 svgo -r -f ./src -o ./dist
 ```
+
+## Sizes
+
+### `640` `×` `360` & `10pct` margin
+
+```
+┌──────────────────────────────┐
+|         ↕ 10% = 36 ↕         |
+|     ┌──────────────────┐     |
+|  ↔  |      ← 512 →     |  ↔  |
+| 10% | ↑              ↑ | 10% |
+|  =  | 288          288 |  =  |
+| 64  | ↓              ↑ | 64  |
+|  ↔  |      ← 512 →     |  ↔  |
+|     └──────────────────┘     |
+|         ↕ 10% = 36 ↕         |
+└──────────────────────────────┘
+```
+
+The `max-width` of the actual logo is `512` and the `max-height` is `288`.
+
+## Center
+
+> The "visual center" is where all of the elements weights are balanced visually despite not being in the exact center.
+
+- https://graphicdesign.stackexchange.com/questions/74356/correctly-vertically-center-text-in-a-box
+- https://javier.xyz/visual-center/
 
 ## Toolbox
 
@@ -50,3 +79,5 @@ bin/toolbox all --dir=src/methods/mastercard
 
 *	https://brand.mastercard.com/brandcenter/other-marks.html
 *	https://brand.mastercard.com/brandcenter/mastercard-brand-mark/downloads.html
+*	https://en.wikipedia.org/wiki/Box-drawing_character
+*	https://en.wikipedia.org/wiki/Arrow_(symbol)
