@@ -6,6 +6,7 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 - Added Przelewy24 logo.
+- Added Santander logo.
 
 ## [1.6.4] - 2020-11-12
 - Added Payvision logo.
