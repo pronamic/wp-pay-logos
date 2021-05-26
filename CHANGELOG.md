@@ -7,6 +7,10 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.6.6] - 2021-05-26
+- Added Swish logo.
+- Added Vipps logo.
+
 ## [1.6.5] - 2021-01-13
 - Added Przelewy24 logo.
 - Added Santander logo.
@@ -65,7 +69,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.6.5...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.6.6...HEAD
+[1.6.6]: https://github.com/wp-pay/logos/compare/1.6.5...1.6.6
 [1.6.5]: https://github.com/wp-pay/logos/compare/1.6.4...1.6.5
 [1.6.4]: https://github.com/wp-pay/logos/compare/1.6.3...1.6.4
 [1.6.3]: https://github.com/wp-pay/logos/compare/1.6.2...1.6.3
