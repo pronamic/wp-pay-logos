@@ -18,6 +18,7 @@
 - [SVGO](#svgo)
 - [Sizes](#sizes)
 - [Center](#center)
+- [Requirements](#requirements)
 
 ## CDN
 
@@ -61,6 +62,36 @@ The `max-width` of the actual logo is `512` and the `max-height` is `288`.
 
 - https://graphicdesign.stackexchange.com/questions/74356/correctly-vertically-center-text-in-a-box
 - https://javier.xyz/visual-center/
+
+## Requirements
+
+### svgcleaner
+
+```
+brew install svgcleaner
+```
+
+- https://formulae.brew.sh/formula/svgcleaner
+- https://github.com/RazrFalcon/svgcleaner
+
+
+### pngquant
+
+```
+brew install pngquant
+```
+
+- https://formulae.brew.sh/formula/pngquant
+- https://pngquant.org/
+
+### Inkscape
+
+```
+brew install --cask inkscape
+```
+
+- https://formulae.brew.sh/cask/inkscape
+- https://inkscape.org/
 
 ## Toolbox
 

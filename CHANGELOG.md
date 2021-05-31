@@ -7,6 +7,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.6.7] - 2021-05-31
+- Added DigiWallet logo.
+
 ## [1.6.6] - 2021-05-26
 - Added Swish logo.
 - Added Vipps logo.
@@ -69,7 +72,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.6.6...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.6.7...HEAD
+[1.6.7]: https://github.com/wp-pay/logos/compare/1.6.6...1.6.7
 [1.6.6]: https://github.com/wp-pay/logos/compare/1.6.5...1.6.6
 [1.6.5]: https://github.com/wp-pay/logos/compare/1.6.4...1.6.5
 [1.6.4]: https://github.com/wp-pay/logos/compare/1.6.3...1.6.4
