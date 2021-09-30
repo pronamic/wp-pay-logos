@@ -7,6 +7,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.6.8] - 2021-09-30
+- Replaced Bancontact logo with the new one.
+
 ## [1.6.7] - 2021-05-31
 - Added DigiWallet logo.
 
@@ -72,7 +75,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.6.7...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.6.8...HEAD
+[1.6.8]: https://github.com/wp-pay/logos/compare/1.6.7...1.6.8
 [1.6.7]: https://github.com/wp-pay/logos/compare/1.6.6...1.6.7
 [1.6.6]: https://github.com/wp-pay/logos/compare/1.6.5...1.6.6
 [1.6.5]: https://github.com/wp-pay/logos/compare/1.6.4...1.6.5
