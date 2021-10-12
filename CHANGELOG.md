@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased][unreleased]
--
+- Removed Moneyou logos.
 
 ## [1.6.8] - 2021-09-30
 - Replaced Bancontact logo with the new one.
