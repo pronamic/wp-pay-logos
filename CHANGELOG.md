@@ -5,7 +5,17 @@ All notable changes to this project will be documented in this file.
 This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased][unreleased]
-- Removed Moneyou logos.
+-
+
+## [1.7.0] - 2021-12-09
+- Added Afterpay.com logo.
+- Added BLIK logo.
+- Added MB WAY logo.
+- Added TWINT logo.
+- Added V PAY logo.
+- Updated direct debit mandate via Bancontact logo.
+- Updated direct debit mandate via iDEAL logo.
+- Removed Moneyou logo.
 
 ## [1.6.8] - 2021-09-30
 - Replaced Bancontact logo with the new one.
@@ -75,7 +85,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.6.8...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.7.0...HEAD
+[1.7.0]: https://github.com/wp-pay/logos/compare/1.6.8...1.7.0
 [1.6.8]: https://github.com/wp-pay/logos/compare/1.6.7...1.6.8
 [1.6.7]: https://github.com/wp-pay/logos/compare/1.6.6...1.6.7
 [1.6.6]: https://github.com/wp-pay/logos/compare/1.6.5...1.6.6
