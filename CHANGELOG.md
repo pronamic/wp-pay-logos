@@ -7,6 +7,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.8.0] - 2022-04-14
+- Added white provider logos.
+
 ## [1.7.1] - 2022-01-20
 - Added Klarna Pay Later logo.
 - Added Klarna Pay Over Time logo.
@@ -89,7 +92,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.7.1...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.8.0...HEAD
+[1.8.0]: https://github.com/wp-pay/logos/compare/1.7.1...1.8.0
 [1.7.1]: https://github.com/wp-pay/logos/compare/1.7.0...1.7.1
 [1.7.0]: https://github.com/wp-pay/logos/compare/1.6.8...1.7.0
 [1.6.8]: https://github.com/wp-pay/logos/compare/1.6.7...1.6.8
