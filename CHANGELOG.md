@@ -7,6 +7,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.8.2] - 2022-05-30
+- Replaced MultiSafepay logo with the new one.
+
 ## [1.8.1] - 2022-05-17
 - Replaced Visa logo with the new one.
 
@@ -95,7 +98,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.8.1...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.8.2...HEAD
+[1.8.2]: https://github.com/wp-pay/logos/compare/1.8.1...1.8.2
 [1.8.1]: https://github.com/wp-pay/logos/compare/1.8.0...1.8.1
 [1.8.0]: https://github.com/wp-pay/logos/compare/1.7.1...1.8.0
 [1.7.1]: https://github.com/wp-pay/logos/compare/1.7.0...1.7.1
