@@ -13,6 +13,8 @@
 
 	<body>
 		<div class="px-4 py-5 my-5 text-center">
+			<img class="d-block mx-auto mb-4 rounded" src="images/pronamic-icon.svg" alt="" width="64" height="64">
+
 			<h1 class="display-5 fw-bold">Pronamic Pay Logos</h1>
 
 			<div class="col-lg-6 mx-auto">
@@ -56,9 +58,9 @@
 						<tr>
 							<?php
 
-							$image_regular  = sprintf( 'images/plugins/%s/plugin-%s-icon-512x512.svg', $plugin, $plugin );
-							$image_white    = sprintf( 'images/plugins/%s/plugin-%s-icon-white-512x512.svg', $plugin, $plugin );
-							$image_inverted = sprintf( 'images/plugins/%s/plugin-%s-icon-inverted-512x512.svg', $plugin, $plugin );
+							$image_regular  = sprintf( 'logos/plugins/%s/plugin-%s-icon-512x512.svg', $plugin, $plugin );
+							$image_white    = sprintf( 'logos/plugins/%s/plugin-%s-icon-white-512x512.svg', $plugin, $plugin );
+							$image_inverted = sprintf( 'logos/plugins/%s/plugin-%s-icon-inverted-512x512.svg', $plugin, $plugin );
 
 							?>
 							<td style="background: #FFF;" class="p-4">
@@ -66,7 +68,7 @@
 
 								if ( is_readable( __DIR__ . '/build/' . $image_regular ) ) {
 									printf(
-										'<img src="%s" class="img-fluid" />',
+										'<img src="%s" class="img-fluid">',
 										$image_regular
 									);
 								}
@@ -78,7 +80,7 @@
 
 								if ( is_readable( __DIR__ . '/build/' . $image_white ) ) {
 									printf(
-										'<img src="%s" class="img-fluid" />',
+										'<img src="%s" class="img-fluid">',
 										$image_white
 									);
 								}
@@ -90,7 +92,7 @@
 
 								if ( is_readable( __DIR__ . '/build/' . $image_inverted ) ) {
 									printf(
-										'<img src="%s" class="img-fluid" />',
+										'<img src="%s" class="img-fluid">',
 										$image_inverted
 									);
 								}
