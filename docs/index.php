@@ -66,7 +66,7 @@
 
 								if ( is_readable( __DIR__ . '/build/' . $image_regular ) ) {
 									printf(
-										'<img src="%s" />',
+										'<img src="%s" class="img-fluid" />',
 										$image_regular
 									);
 								}
@@ -78,7 +78,7 @@
 
 								if ( is_readable( __DIR__ . '/build/' . $image_white ) ) {
 									printf(
-										'<img src="%s" />',
+										'<img src="%s" class="img-fluid" />',
 										$image_white
 									);
 								}
@@ -90,7 +90,7 @@
 
 								if ( is_readable( __DIR__ . '/build/' . $image_inverted ) ) {
 									printf(
-										'<img src="%s" />',
+										'<img src="%s" class="img-fluid" />',
 										$image_inverted
 									);
 								}
