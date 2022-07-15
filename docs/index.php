@@ -42,6 +42,47 @@
 			];
 
 			?>
+
+			<h3>Logos</h3>
+
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">Regular</th>
+					</tr>
+				</thead>
+
+				<tbody>
+
+					<?php foreach ( $plugins as $plugin ) : ?>
+
+						<tr>
+							<?php
+
+							$image_regular  = sprintf( 'logos/plugins/%s/plugin-%s-640x360.svg', $plugin, $plugin );
+
+							?>
+							<td style="background: #FFF;" class="p-4">
+								<?php
+
+								if ( is_readable( __DIR__ . '/build/' . $image_regular ) ) {
+									printf(
+										'<img src="%s" class="img-fluid">',
+										$image_regular
+									);
+								}
+
+								?>
+							</td>
+						</tr>
+
+					<?php endforeach; ?>
+
+				</tbody>
+			</table>
+
+			<h3>Icons</h3>
+
 			<table class="table">
 				<thead>
 					<tr>
