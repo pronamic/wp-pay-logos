@@ -9,11 +9,9 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
     
-      - uses: php-actions/composer@v6
-
       - name: Install and Build 🔧
         run: |
-          composer run-script build-docs
+          docs/bin/build-docs.sh
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4

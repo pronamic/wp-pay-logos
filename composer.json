@@ -5,12 +5,5 @@
         "symfony/console": "^5.1"
     },
     "require": {
-    },
-    "scripts": {
-        "build-docs": [
-            "rm -r docs/build",
-            "mkdir docs/build",
-            "php docs/index.php > docs/build/index.html"
-        ]
     }
 }
