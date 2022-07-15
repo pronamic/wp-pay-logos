@@ -20,6 +20,91 @@
 			</div>
 		</div>
 
+		<div class="container">
+			<h2>Plugins</h2>
+
+			<?php
+
+			$plugins = [
+				'charitable',
+				'contact-form-7',
+				'easydigitaldownloads',
+				'event-espresso',
+				'formidable-forms',
+				'give',
+				'gravity-forms',
+				'memberpress',
+				'ninja-forms',
+				'restrictcontentpro',
+				'woocommerce',
+			];
+
+			?>
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">Regular</th>
+						<th scope="col">White</th>
+						<th scope="col">Inverted</th>
+					</tr>
+				</thead>
+
+				<tbody>
+
+					<?php foreach ( $plugins as $plugin ) : ?>
+
+						<tr>
+							<?php
+
+							$image_regular  = sprintf( 'images/plugins/%s/plugin-%s-icon-512x512.svg', $plugin, $plugin );
+							$image_white    = sprintf( 'images/plugins/%s/plugin-%s-icon-white-512x512.svg', $plugin, $plugin );
+							$image_inverted = sprintf( 'images/plugins/%s/plugin-%s-icon-inverted-512x512.svg', $plugin, $plugin );
+
+							?>
+							<td style="background: #FFF;" class="p-4">
+								<?php
+
+								if ( is_readable( __DIR__ . '/build/' . $image_regular ) ) {
+									printf(
+										'<img src="%s" />',
+										$image_regular
+									);
+								}
+
+								?>
+							</td>
+  							<td style="background: #000;" class="p-4">
+								<?php
+
+								if ( is_readable( __DIR__ . '/build/' . $image_white ) ) {
+									printf(
+										'<img src="%s" />',
+										$image_white
+									);
+								}
+
+								?>
+							</td>
+							<td style="background: #F9461C;" class="p-4">
+								<?php
+
+								if ( is_readable( __DIR__ . '/build/' . $image_inverted ) ) {
+									printf(
+										'<img src="%s" />',
+										$image_inverted
+									);
+								}
+
+								?>
+							</td>
+						</tr>
+
+					<?php endforeach; ?>
+
+				</tbody>
+			</table>
+		</div>
+
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 	</body>
 </html>
