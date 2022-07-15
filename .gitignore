@@ -1,2 +1,5 @@
 # Composer
 /vendor/
+
+# Documentation build
+/docs/build/
