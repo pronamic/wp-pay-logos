@@ -1,6 +1,6 @@
 {
   "name": "@wp-pay/logos",
-  "version": "1.8.3",
+  "version": "1.9.0",
   "description": "Logos for the WordPress payment processing library.",
   "repository": {
     "type": "git",

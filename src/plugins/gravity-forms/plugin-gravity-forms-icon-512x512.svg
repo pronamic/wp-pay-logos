@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="gravityforms.svg"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs23" />
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="218.5"
+     inkscape:cy="152.5"
+     inkscape:window-width="1610"
+     inkscape:window-height="1033"
+     inkscape:window-x="2734"
+     inkscape:window-y="252"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg19" />
+  <g
+     id="g197"
+     transform="matrix(7.8696015,0,0,7.8696015,-484.634,-1160.5283)">
+    <path
+       d="m 124.22656,191.4577 a 10.35512,10.35512 0 0 1 -4.69384,8.14384 l -20.44407,11.78067 a 10.685275,10.685275 0 0 1 -9.513094,0.0614 L 68.975368,199.93937 a 10.35256,10.35256 0 0 1 -4.809013,-8.07986 l -0.166358,-23.30797 a 10.326967,10.326967 0 0 1 4.704081,-8.13361 l 20.441507,-11.80371 a 10.715988,10.715988 0 0 1 9.513095,-0.0614 l 20.58995,11.51706 c 2.81528,1.78386 4.60682,4.7783 4.81925,8.06962 l 0.15868,23.31566 z"
+       fill="#f15a2b"
+       id="path11"
+       style="stroke-width:2.55935" />
+    <path
+       d="m 88.339391,174.60183 h 27.052299 v -7.54495 H 88.403375 a 12.591989,12.591989 0 0 0 -9.513095,3.88509 c -5.886499,6.22689 -6.045178,21.88498 -6.045178,21.88498 h 42.336728 v -14.17367 h -7.60894 v 6.60823 H 80.963352 c 0.166357,-2.46465 1.307826,-6.86672 3.467915,-9.14454 a 5.0419144,5.0419144 0 0 1 3.908124,-1.51514 z"
+       fill="#ffffff"
+       id="path13"
+       style="stroke-width:2.55935" />
+  </g>
+</svg>
