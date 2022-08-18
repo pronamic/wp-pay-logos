@@ -7,6 +7,11 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.9.0] - 2022-08-18
+- Added plugin icons.
+- Improved Event Espresso icon. ( [#2](https://github.com/pronamic/wp-pay-logos/issues/2) )
+- Added new documentation webpage: https://pronamic.github.io/wp-pay-logos/.
+
 ## [1.8.3] - 2022-07-01
 - Renamed Klarna Pay Now and Klarna Pay Over Time file names.
 
