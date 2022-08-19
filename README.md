@@ -106,6 +106,16 @@ bin/toolbox all --dir=src/methods/maestro
 bin/toolbox all --dir=src/methods/mastercard
 ```
 
+## Other libraries
+
+After Pronamic launched this pay logos libraries a number of other (Dutch) payment providers have followed our example:
+
+| Date | Repository |
+| ---- | ---------- |
+| 2020-02-25 | https://github.com/pronamic/wp-pay-logos |
+| 2020-03-30 | https://github.com/MultiSafepay/MultiSafepay-icons |
+| 2020-06-19 | https://github.com/paynl/payment-images |
+
 ## Resources
 
 - https://brand.mastercard.com/brandcenter/other-marks.html
