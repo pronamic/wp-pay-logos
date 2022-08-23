@@ -6,6 +6,7 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 - Removed Payvision logos.
+- Removed Sisow logos.
 
 ## [1.9.0] - 2022-08-18
 - Added plugin icons.
