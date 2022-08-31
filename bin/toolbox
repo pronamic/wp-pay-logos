@@ -183,7 +183,7 @@ $application
 		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
 		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
 
-		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
+		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' );
 
 		foreach ( $finder as $file ) {
 			$relative = $filesystem->makePathRelative( $file->getRealPath(), $dir_src->getRealPath() );
