@@ -204,40 +204,6 @@ $application
 	} );
 
 $application
-	->register( 'svgcleaner' )
-	->addOption(
-		'dir',
-		'd',
-		InputOption::VALUE_REQUIRED,
-		'Directory to scan for SVG files.',
-		__DIR__ . '/../src/'
-	)
-	->setCode( function( InputInterface $input, OutputInterface $output ) {
-		$finder = new Finder();
-
-		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
-
-		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
-		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
-
-		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
-
-		foreach ( $finder as $file ) {
-			$output = $file->getPath() . '/' . $file->getBasename( '.' . $file->getExtension() ) . '.svgcleaner-min.svg';
-
-			$command = sprintf(
-				'svgcleaner %s %s',
-				$file->getRealPath(),
-				$output
-			);
-
-			echo $command, PHP_EOL;
-
-			passthru( $command );
-		}
-	} );
-
-$application
 	->register( 'all' )
 	->addOption(
 		'dir',
@@ -249,7 +215,6 @@ $application
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$application = $this->getApplication();
 
-		//$application->find( 'svgcleaner' )->run( $input, $output );
 		$application->find( 'svg-min' )->run( $input, $output );
 		$application->find( 'svg-png' )->run( $input, $output );
 		$application->find( 'png-min' )->run( $input, $output );

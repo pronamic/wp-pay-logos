@@ -65,16 +65,6 @@ The `max-width` of the actual logo is `512` and the `max-height` is `288`.
 
 ## Requirements
 
-### svgcleaner
-
-```
-brew install svgcleaner
-```
-
-- https://formulae.brew.sh/formula/svgcleaner
-- https://github.com/RazrFalcon/svgcleaner
-
-
 ### pngquant
 
 ```
