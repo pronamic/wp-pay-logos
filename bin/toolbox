@@ -20,6 +20,7 @@ $application
 		InputOption::VALUE_REQUIRED,
 		'Directory to scan for SVG files.',
 		__DIR__ . '/../src/'
+		__DIR__ . '/../dist/'
 	)
 	->addOption(
 		'tool',
@@ -37,7 +38,7 @@ $application
 
 		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' );
 
-		foreach ( $finder as $file ) {			
+		foreach ( $finder as $file ) {
 			echo $file->getRealPath(), PHP_EOL;
 
 			$filename = $file->getFilename();
@@ -56,8 +57,6 @@ $application
 
 			$width  = $matches['width'];
 			$height = $matches['height'];
-
-			$info = new SplFileInfo( $file->getRealPath() );
 
 			$densities = array(
 				'1' => (object) array(
@@ -79,7 +78,7 @@ $application
 			);
 
 			foreach ( $densities as $density ) {
-				$png = $info->getPath() . '/' . $info->getBasename( $extension ) . $density->extension;
+				$png = $file->getPath() . '/' . $file->getBasename( '.' . $file->getExtension() ) . $density->extension;
 
 				$w = $width * $density->factor;
 				$h = $height * $density->factor;
@@ -130,7 +129,7 @@ $application
 		'd',
 		InputOption::VALUE_REQUIRED,
 		'Directory to scan for SVG files.',
-		__DIR__ . '/../src/'
+		__DIR__ . '/../dist/'
 	)
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$filesystem = new Filesystem();
@@ -139,21 +138,12 @@ $application
 
 		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
 
-		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
-		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
-
 		$finder->in( $dir->getRealPath() )->files()->name( '*.png' );
 
 		foreach ( $finder as $file ) {
-			$relative = $filesystem->makePathRelative( $file->getRealPath(), $dir_src->getRealPath() );
-			$relative = rtrim( $relative, '/' );
-
-			$output = $dir_dist->getRealPath() . '/' . $relative;
-
 			$command = sprintf(
-				'pngquant %s --output %s --force',
-				$file->getRealPath(),
-				$output
+				'pngquant %s --ext=.png --force',
+				$file->getRealPath()
 			);
 
 			echo $command, PHP_EOL;
@@ -213,9 +203,30 @@ $application
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$application = $this->getApplication();
 
-		$application->find( 'svg-min' )->run( $input, $output );
-		$application->find( 'svg-png' )->run( $input, $output );
-		$application->find( 'png-min' )->run( $input, $output );
+		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
+		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
+
+		/**
+		 * Synchronize.
+		 */
+		$command = 'rsync --archive src/ dist/ --include "*/"  --include="*.svg" --exclude="*" --exclude="src-"';
+
+		echo $command, PHP_EOL;
+
+		passthru( $command );
+
+		/**
+		 * SVGO.
+		 */
+		$command = 'svgo --recursive --folder dist/';
+
+		echo $command, PHP_EOL;
+
+		passthru( $command );
+
+		//$application->find( 'svg-min' )->run( $input, $output );
+		//$application->find( 'svg-png' )->run( $input, $output );
+		//$application->find( 'png-min' )->run( $input, $output );
 	} );
 
 $application->run();
