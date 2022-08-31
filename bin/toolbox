@@ -37,7 +37,7 @@ $application
 
 		$finder = new Finder();
 
-		$finder->in( $dir->getRealPath() )->files()->name( '*' . $extension );
+		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
 
 		foreach ( $finder as $file ) {			
 			echo $file->getRealPath(), PHP_EOL;
@@ -163,6 +163,7 @@ $application
 			passthru( $command );
 		}
 	} );
+
 $application
 	->register( 'svg-min' )
 	->addOption(
@@ -219,7 +220,7 @@ $application
 		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
 		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
 
-		$finder->in( $dir_src->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
+		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
 
 		foreach ( $finder as $file ) {
 			$output = $file->getPath() . '/' . $file->getBasename( '.' . $file->getExtension() ) . '.svgcleaner-min.svg';
@@ -248,7 +249,7 @@ $application
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$application = $this->getApplication();
 
-		$application->find( 'svgcleaner' )->run( $input, $output );
+		//$application->find( 'svgcleaner' )->run( $input, $output );
 		$application->find( 'svg-min' )->run( $input, $output );
 		$application->find( 'svg-png' )->run( $input, $output );
 		$application->find( 'png-min' )->run( $input, $output );
