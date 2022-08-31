@@ -31,13 +31,11 @@ $application
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$tool = $input->getOption( 'tool' );
 
-		$extension = '.svgcleaner-min.svg';
-
 		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
 
 		$finder = new Finder();
 
-		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' )->notName( '*.svgcleaner-min.svg' );
+		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' );
 
 		foreach ( $finder as $file ) {			
 			echo $file->getRealPath(), PHP_EOL;
