@@ -13,30 +13,56 @@ use Symfony\Component\Finder\Finder;
 $application = new Application( 'WordPress Pay Logos', '1.0.0' );
 
 $application
-	->register( 'svg-png' )
+	->register( 'all' )
 	->addOption(
-		'dir',
-		'd',
+		'path',
+		'p',
 		InputOption::VALUE_REQUIRED,
-		'Directory to scan for SVG files.',
-		__DIR__ . '/../src/'
-		__DIR__ . '/../dist/'
-	)
-	->addOption(
-		'tool',
-		't',
-		InputOption::VALUE_REQUIRED,
-		'Tool to convert SVG to PNG.',
-		'Inkscape'
+		'Path to scan for files.',
+		''
 	)
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
-		$tool = $input->getOption( 'tool' );
+		$application = $this->getApplication();
 
-		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
+		$path = $input->getOption( 'path' );
 
+		$filesystem = new Filesystem();
+
+		$dir_cwd  = new SplFileInfo( getcwd() );
+		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' . $path );
+		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' . $path );
+
+		$path_src  = $filesystem->makePathRelative( $dir_src->getRealPath(), $dir_cwd->getRealPath() );
+		$path_dist = $filesystem->makePathRelative( $dir_dist->getRealPath(), $dir_cwd->getRealPath() );
+
+		/**
+		 * Synchronize.
+		 */
+		$command = sprintf(
+			'rsync --delete --archive --include "*/"  --include="*.svg" --exclude="*" --exclude="src-*" %s %s',
+			$path_src,
+			$path_dist
+		);
+
+		echo $command, PHP_EOL;
+
+		passthru( $command );
+
+		/**
+		 * SVGO.
+		 */
+		$command = 'svgo --recursive --folder ' . $path_dist;
+
+		echo $command, PHP_EOL;
+
+		passthru( $command );
+
+		/**
+		 * SVG to PNG.
+		 */
 		$finder = new Finder();
 
-		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' );
+		$finder->in( $dir_dist->getRealPath() )->files()->name( '*.svg' );
 
 		foreach ( $finder as $file ) {
 			echo $file->getRealPath(), PHP_EOL;
@@ -93,52 +119,16 @@ $application
 
 				echo $command, PHP_EOL;
 
-				if ( 'ImageMagick' === $tool ) {
-					$command = sprintf(
-						'convert -background transparent -resize %dx%d %s %s',
-						$w,
-						$h,
-						$file->getRealPath(),
-						$png
-					);
-
-					echo $command, PHP_EOL;
-				}
-
-				if ( 'SVG Converter' === $tool ) {
-					$command = sprintf(
-						'rsvg-convert -w %d -h %d %s -o %s',
-						$w,
-						$h,
-						$file->getRealPath(),
-						$png
-					);
-
-					echo $command, PHP_EOL;
-				}
-
 				passthru( $command );
 			}
 		}
-	} );
 
-$application
-	->register( 'png-min' )
-	->addOption(
-		'dir',
-		'd',
-		InputOption::VALUE_REQUIRED,
-		'Directory to scan for SVG files.',
-		__DIR__ . '/../dist/'
-	)
-	->setCode( function( InputInterface $input, OutputInterface $output ) {
-		$filesystem = new Filesystem();
-
+		/**
+		 * PNG compressor.
+		 */
 		$finder = new Finder();
 
-		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
-
-		$finder->in( $dir->getRealPath() )->files()->name( '*.png' );
+		$finder->in( $dir_dist->getRealPath() )->files()->name( '*.png' );
 
 		foreach ( $finder as $file ) {
 			$command = sprintf(
@@ -150,83 +140,6 @@ $application
 
 			passthru( $command );
 		}
-	} );
-
-$application
-	->register( 'svg-min' )
-	->addOption(
-		'dir',
-		'd',
-		InputOption::VALUE_REQUIRED,
-		'Directory to scan for SVG files.',
-		__DIR__ . '/../src/'
-	)
-	->setCode( function( InputInterface $input, OutputInterface $output ) {
-		$filesystem = new Filesystem();
-
-		$finder = new Finder();
-
-		$dir = new SplFileInfo( $input->getOption( 'dir' ) );
-
-		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
-		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
-
-		$finder->in( $dir->getRealPath() )->files()->name( '*.svg' )->notName( 'src-*' );
-
-		foreach ( $finder as $file ) {
-			$relative = $filesystem->makePathRelative( $file->getRealPath(), $dir_src->getRealPath() );
-			$relative = rtrim( $relative, '/' );
-
-			$output = $dir_dist->getRealPath() . '/' . $relative;
-
-			$command = sprintf(
-				'svgo %s --output %s',
-				$file->getRealPath(),
-				$output
-			);
-
-			echo $command, PHP_EOL;
-
-			passthru( $command );
-		}
-	} );
-
-$application
-	->register( 'all' )
-	->addOption(
-		'dir',
-		'd',
-		InputOption::VALUE_REQUIRED,
-		'Directory to scan for files.',
-		__DIR__ . '/../src/'
-	)
-	->setCode( function( InputInterface $input, OutputInterface $output ) {
-		$application = $this->getApplication();
-
-		$dir_src  = new SplFileInfo( __DIR__ . '/../src/' );
-		$dir_dist = new SplFileInfo( __DIR__ . '/../dist/' );
-
-		/**
-		 * Synchronize.
-		 */
-		$command = 'rsync --archive src/ dist/ --include "*/"  --include="*.svg" --exclude="*" --exclude="src-"';
-
-		echo $command, PHP_EOL;
-
-		passthru( $command );
-
-		/**
-		 * SVGO.
-		 */
-		$command = 'svgo --recursive --folder dist/';
-
-		echo $command, PHP_EOL;
-
-		passthru( $command );
-
-		//$application->find( 'svg-min' )->run( $input, $output );
-		//$application->find( 'svg-png' )->run( $input, $output );
-		//$application->find( 'png-min' )->run( $input, $output );
 	} );
 
 $application->run();
