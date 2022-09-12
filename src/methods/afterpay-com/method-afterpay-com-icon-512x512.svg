@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   fill="none"
+   version="1.1"
+   id="svg3461"
+   sodipodi:docname="method-afterpay-com-icon-512x512.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3465" />
+  <sodipodi:namedview
+     id="namedview3463"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="213.69492"
+     inkscape:cy="263.59322"
+     inkscape:window-width="1493"
+     inkscape:window-height="807"
+     inkscape:window-x="3165"
+     inkscape:window-y="426"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3461" />
+  <path
+     d="M326.806 39.8372L478.604 125.313V125.337C499.206 136.65 512 158.281 512 181.784C512 205.286 499.206 226.917 478.604 238.231L326.806 323.735C282.259 348.876 226.575 317.459 226.575 267.241V255.639C226.575 244.707 214.498 237.896 204.828 243.357L73.3385 317.436C68.8596 319.908 66.094 324.61 66.094 329.713C66.094 334.797 68.8596 339.495 73.3385 341.972L204.828 416.027C214.475 421.493 226.575 414.677 226.575 403.768V381.956C226.575 372.486 237.079 366.55 245.487 371.294L274.139 387.487C281.109 391.356 285.471 398.689 285.518 406.669V415.44C285.518 465.681 229.769 497.029 185.218 471.934L33.4195 386.453C12.7989 375.14 0 353.486 0 329.96C0 306.439 12.7989 284.784 33.4195 273.471L185.218 187.967C229.811 162.825 285.518 194.243 285.518 244.46V256.063C285.518 266.994 297.595 273.787 307.265 268.345L438.732 194.289C448.402 188.847 448.402 175.219 438.732 169.776L307.265 95.6976C297.595 90.2317 285.495 97.0711 285.495 107.975V129.792C285.495 139.257 275.014 145.194 266.606 140.426L237.931 124.28C230.914 120.346 226.575 113.013 226.575 105.098V96.3262C226.575 46.0853 282.277 14.7377 326.806 39.8372Z"
+     fill="black"
+     id="path3459" />
+</svg>

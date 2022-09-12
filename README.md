@@ -92,8 +92,8 @@ bin/toolbox all
 ```
 
 ```
-bin/toolbox all --dir=src/methods/maestro
-bin/toolbox all --dir=src/methods/mastercard
+bin/toolbox all --path=methods/maestro
+bin/toolbox all --path=methods/mastercard
 ```
 
 ## Other libraries
