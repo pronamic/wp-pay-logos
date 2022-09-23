@@ -5,7 +5,15 @@ All notable changes to this project will be documented in this file.
 This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased][unreleased]
--
+- Removed Payvision logos.
+- Removed Sisow logos.
+
+## [1.10.0] - 2022-09-23
+- Added icons.
+- Updated tooling.
+- Updated to new Pay. branding.
+- Removed Payvision logo (pronamic/wp-pronamic-pay-payvision#1).
+- Removed Sisow logo.
 
 ## [1.9.0] - 2022-08-18
 - Added plugin icons.
@@ -107,6 +115,7 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 - First release.
 
 [unreleased]: https://github.com/wp-pay/logos/compare/1.8.3...HEAD
+[1.10.0]: https://github.com/pronamic/wp-pay-logos/compare/1.9.0...1.10.0
 [1.8.3]: https://github.com/wp-pay/logos/compare/1.8.2...1.8.3
 [1.8.2]: https://github.com/wp-pay/logos/compare/1.8.1...1.8.2
 [1.8.1]: https://github.com/wp-pay/logos/compare/1.8.0...1.8.1

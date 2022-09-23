@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   fill="none"
+   version="1.1"
+   id="svg148"
+   sodipodi:docname="provider-multisafepay-icon-white-512x512.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview150"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="208.27119"
+     inkscape:cy="256"
+     inkscape:window-width="729"
+     inkscape:window-height="480"
+     inkscape:window-x="2667"
+     inkscape:window-y="456"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg148" />
+  <g
+     clip-path="url(#clip0_23_10892)"
+     id="g138"
+     style="fill:#ffffff">
+    <g
+       clip-path="url(#clip1_23_10892)"
+       id="g136"
+       style="fill:#ffffff">
+      <path
+         d="M512 428.748L0 0V512H512V428.748Z"
+         fill="#00ABEE"
+         id="path132"
+         style="fill:#ffffff" />
+      <path
+         d="M512 0L274.618 198.618L512 397.238V0Z"
+         fill="#004A71"
+         id="path134"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+  <defs
+     id="defs146">
+    <clipPath
+       id="clip0_23_10892">
+      <rect
+         width="512"
+         height="512"
+         fill="white"
+         id="rect140" />
+    </clipPath>
+    <clipPath
+       id="clip1_23_10892">
+      <rect
+         width="512"
+         height="512"
+         fill="white"
+         id="rect143" />
+    </clipPath>
+  </defs>
+</svg>

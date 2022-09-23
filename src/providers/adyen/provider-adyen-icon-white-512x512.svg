@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   fill="none"
+   version="1.1"
+   id="svg15375"
+   sodipodi:docname="provider-adyen-icon-white-512x512.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs15379" />
+  <sodipodi:namedview
+     id="namedview15377"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="190.91525"
+     inkscape:cy="264.67797"
+     inkscape:window-width="724"
+     inkscape:window-height="480"
+     inkscape:window-x="0"
+     inkscape:window-y="795"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg15375" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M408.085 0H8.29556V127.996H268.864C284.98 128.004 298.046 141.134 298.046 157.338V384.004H242.359C226.243 384.004 213.177 370.866 213.177 354.662V191.998H103.138C46.7285 191.998 1 237.977 1 294.695V409.304C1 466.021 46.7285 512 103.138 512H510.223V102.696C510.223 45.9786 464.494 0 408.085 0Z"
+     fill="#0ABF53"
+     id="path15373"
+     style="fill:#ffffff" />
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   fill="none"
+   version="1.1"
+   id="svg13431"
+   sodipodi:docname="provider-buckaroo-icon-white-512x512.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13435" />
+  <sodipodi:namedview
+     id="namedview13433"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="208.27119"
+     inkscape:cy="256"
+     inkscape:window-width="726"
+     inkscape:window-height="480"
+     inkscape:window-x="2756"
+     inkscape:window-y="363"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg13431" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M81.7416 0H7L234.959 512H286.549L505.526 0H430.794L366.518 150.014H149.762L81.7416 0ZM179.664 215.694H338.1L261.865 400.049L179.664 215.694Z"
+     fill="#D1CE27"
+     id="path13429"
+     style="fill:#ffffff" />
+</svg>

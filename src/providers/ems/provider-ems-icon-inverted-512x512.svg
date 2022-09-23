@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   fill="none"
+   version="1.1"
+   id="svg4938"
+   sodipodi:docname="provider-ems-icon-inverted-512x512.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4942" />
+  <sodipodi:namedview
+     id="namedview4940"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="208.27119"
+     inkscape:cy="256"
+     inkscape:window-width="726"
+     inkscape:window-height="480"
+     inkscape:window-x="2661"
+     inkscape:window-y="819"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4938" />
+  <path
+     d="M235.044 364.089V327.111H121.267V361.245C121.267 443.733 189.534 512 272.022 512H459.755V401.067H274.866C254.954 403.911 235.044 386.843 235.044 364.089ZM121.267 0H459.755V113.777H235.044V173.512H121.267V0Z"
+     fill="#0071B9"
+     id="path4934"
+     style="fill:#ffffff" />
+  <path
+     d="M402.865 261.688H70.0652L53 307.198H402.865V261.688ZM402.865 196.265H92.8219L78.6009 238.931H402.865V196.265Z"
+     fill="#FFCB00"
+     id="path4936" />
+</svg>

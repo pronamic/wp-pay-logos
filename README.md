@@ -65,16 +65,6 @@ The `max-width` of the actual logo is `512` and the `max-height` is `288`.
 
 ## Requirements
 
-### svgcleaner
-
-```
-brew install svgcleaner
-```
-
-- https://formulae.brew.sh/formula/svgcleaner
-- https://github.com/RazrFalcon/svgcleaner
-
-
 ### pngquant
 
 ```
@@ -102,13 +92,23 @@ bin/toolbox all
 ```
 
 ```
-bin/toolbox all --dir=src/methods/maestro
-bin/toolbox all --dir=src/methods/mastercard
+bin/toolbox all --path=methods/maestro
+bin/toolbox all --path=methods/mastercard
 ```
+
+## Other libraries
+
+After Pronamic launched this pay logos libraries a number of other (Dutch) payment providers have followed our example:
+
+| Date | Repository |
+| ---- | ---------- |
+| 2020-02-25 | https://github.com/pronamic/wp-pay-logos |
+| 2020-03-30 | https://github.com/MultiSafepay/MultiSafepay-icons |
+| 2020-06-19 | https://github.com/paynl/payment-images |
 
 ## Resources
 
-*	https://brand.mastercard.com/brandcenter/other-marks.html
-*	https://brand.mastercard.com/brandcenter/mastercard-brand-mark/downloads.html
-*	https://en.wikipedia.org/wiki/Box-drawing_character
-*	https://en.wikipedia.org/wiki/Arrow_(symbol)
+- https://brand.mastercard.com/brandcenter/other-marks.html
+- https://brand.mastercard.com/brandcenter/mastercard-brand-mark/downloads.html
+- https://en.wikipedia.org/wiki/Box-drawing_character
+- https://en.wikipedia.org/wiki/Arrow_(symbol)
