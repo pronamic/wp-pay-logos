@@ -5,8 +5,11 @@ All notable changes to this project will be documented in this file.
 This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased][unreleased]
-- Removed Payvision logos.
-- Removed Sisow logos.
+
+## [1.11.0] - 2022-10-14
+- Added Ingenico icons.
+- Added TargetPay icons.
+- Added AfterPay Riverty logo.
 
 ## [1.10.0] - 2022-09-23
 - Added icons.
@@ -114,7 +117,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.8.3...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.11.0...HEAD
+[1.11.0]: https://github.com/pronamic/wp-pay-logos/compare/1.10.0...1.11.0
 [1.10.0]: https://github.com/pronamic/wp-pay-logos/compare/1.9.0...1.10.0
 [1.8.3]: https://github.com/wp-pay/logos/compare/1.8.2...1.8.3
 [1.8.2]: https://github.com/wp-pay/logos/compare/1.8.1...1.8.2
