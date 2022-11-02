@@ -6,6 +6,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 
+## [1.12.0] - 2022-11-02
+- Fixed white Rabobank logo (was black).
+
 ## [1.11.0] - 2022-10-14
 - Added Ingenico icons.
 - Added TargetPay icons.
@@ -117,7 +120,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.11.0...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.12.0...HEAD
+[1.12.0]: https://github.com/pronamic/wp-pay-logos/compare/1.11.0...1.12.0
 [1.11.0]: https://github.com/pronamic/wp-pay-logos/compare/1.10.0...1.11.0
 [1.10.0]: https://github.com/pronamic/wp-pay-logos/compare/1.9.0...1.10.0
 [1.8.3]: https://github.com/wp-pay/logos/compare/1.8.2...1.8.3
