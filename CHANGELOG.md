@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased][unreleased]
+- Fixed black Rabobank logo (was white).
 
 ## [1.12.0] - 2022-11-02
 - Fixed white Rabobank logo (was black).
