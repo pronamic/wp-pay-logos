@@ -59,7 +59,7 @@
 						<tr>
 							<?php
 
-							$image_regular  = sprintf( 'logos/plugins/%s/plugin-%s-640x360.svg', $plugin, $plugin );
+							$image_regular = sprintf( 'logos/plugins/%s/plugin-%s-640x360.svg', $plugin, $plugin );
 
 							?>
 							<td style="background: #FFF;" class="p-4">
@@ -116,7 +116,7 @@
 
 								?>
 							</td>
-  							<td style="background: #000;" class="p-4">
+								<td style="background: #000;" class="p-4">
 								<?php
 
 								if ( is_readable( __DIR__ . '/build/' . $image_white ) ) {
