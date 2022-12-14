@@ -5,7 +5,13 @@ All notable changes to this project will be documented in this file.
 This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased][unreleased]
+
+## [1.13.0] - 2022-12-14
+- Added MobilePay logo.
+- Added SprayPay logo.
+- Added Riverty logo.
 - Fixed black Rabobank logo (was white).
+- Fixed WooCommerce icon filename for AfterPay Riverty.
 
 ## [1.12.0] - 2022-11-02
 - Fixed white Rabobank logo (was black).
@@ -121,7 +127,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.12.0...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.13.0...HEAD
+[1.13.0]: https://github.com/pronamic/wp-pay-logos/compare/1.12.0...1.13.0
 [1.12.0]: https://github.com/pronamic/wp-pay-logos/compare/1.11.0...1.12.0
 [1.11.0]: https://github.com/pronamic/wp-pay-logos/compare/1.10.0...1.11.0
 [1.10.0]: https://github.com/pronamic/wp-pay-logos/compare/1.9.0...1.10.0
