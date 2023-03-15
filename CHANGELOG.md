@@ -8,6 +8,7 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [1.14.0] - 2023-03-15
 - Changed SOFORT logo, please note that in many cases the Klarna logo must be used.
+- Added iDEAL issuer Yoursafe icon.
 
 ## [1.13.0] - 2022-12-14
 - Added MobilePay logo.
