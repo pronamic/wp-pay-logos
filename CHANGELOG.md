@@ -131,7 +131,8 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.13.0...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.14.0...HEAD
+[1.14.0]: https://github.com/pronamic/wp-pay-logos/compare/1.13.0...1.14.0
 [1.13.0]: https://github.com/pronamic/wp-pay-logos/compare/1.12.0...1.13.0
 [1.12.0]: https://github.com/pronamic/wp-pay-logos/compare/1.11.0...1.12.0
 [1.11.0]: https://github.com/pronamic/wp-pay-logos/compare/1.10.0...1.11.0
