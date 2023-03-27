@@ -6,6 +6,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 
+## [1.15.0] - 2023-03-27
+- Added SEPA logo.
+
 ## [1.14.0] - 2023-03-15
 - Changed SOFORT logo, please note that in many cases the Klarna logo must be used.
 - Added iDEAL issuer Yoursafe icon.
