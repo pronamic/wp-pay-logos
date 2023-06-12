@@ -5,17 +5,17 @@
    viewBox="0 0 640 360"
    fill="none"
    version="1.1"
-   id="svg550"
-   sodipodi:docname="method-riverty-white-640x360.svg"
+   id="svg421"
+   sodipodi:docname="method-riverty-green-640x360.svg"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs554" />
+     id="defs425" />
   <sodipodi:namedview
-     id="namedview552"
+     id="namedview423"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -25,17 +25,17 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.3084416"
-     inkscape:cx="413.8511"
-     inkscape:cy="56.173695"
-     inkscape:window-width="1882"
-     inkscape:window-height="1009"
-     inkscape:window-x="3099"
-     inkscape:window-y="305"
+     inkscape:cx="439.45409"
+     inkscape:cy="58.466501"
+     inkscape:window-width="1979"
+     inkscape:window-height="1233"
+     inkscape:window-x="3100"
+     inkscape:window-y="304"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg550" />
+     inkscape:current-layer="svg421" />
   <path
      d="m 576,151.21051 -24.13382,31.75011 v 25.82885 h -13.27709 v -25.82885 l -24.13382,-31.75011 h 16.45881 l 14.6862,19.55853 14.5726,-19.55853 z m -134.39169,0 v 11.37124 h 21.27626 v 46.2321 h 13.1635 v -46.25648 h 21.25188 v -11.37122 z m -65.84353,11.37124 h 19.58345 c 5.82095,0 8.52502,2.20115 8.52502,6.8552 0,4.6541 -2.70407,6.85521 -8.52502,6.85521 h -19.58345 z m 44.31681,46.2321 -15.11508,-22.1901 c 8.09559,-2.20116 12.3218,-8.04106 12.3218,-17.1868 0,-11.85856 -7.17299,-18.20207 -20.50715,-18.20207 h -34.18043 v 57.57897 h 13.16405 v -21.19918 h 14.51553 l 14.26508,21.1748 z M 274.35553,151.23488 v 57.57897 h 51.90262 v -11.37122 h -38.71474 v -11.93974 h 33.26615 v -11.37122 h -33.26615 v -11.5743 h 38.73912 v -11.37122 z m -41.28914,0 -16.93645,42.56901 -17.05004,-42.58525 h -14.28115 l 24.22303,57.57914 h 13.50373 l 24.22303,-57.57914 z m -89.21656,57.55459 h 13.16406 v -57.57896 h -13.16406 z m -79.84983,0 h 13.163941 v -44.3802 H 64 Z M 77.163941,164.41736 H 121.39165 V 151.20238 H 77.163941 Z"
-     fill="#e7e4e2"
-     id="path548"
-     style="stroke-width:0.554113;fill:#ffffff" />
+     fill="#527a42"
+     id="path419"
+     style="stroke-width:0.554113" />
 </svg>
