@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   fill="none"
+   version="1.1"
+   id="svg1946"
+   sodipodi:docname="method-billie-icon-white-512x512.svg"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1950" />
+  <sodipodi:namedview
+     id="namedview1948"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.3882353"
+     inkscape:cx="298.94068"
+     inkscape:cy="297.13983"
+     inkscape:window-width="1773"
+     inkscape:window-height="1067"
+     inkscape:window-x="2531"
+     inkscape:window-y="399"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1946" />
+  <path
+     d="M 285.24122,512 H 69.44629 V 157.50034 c 0,-43.28866 18.10036,-85.17131 49.63427,-114.81031 C 151.09995,12.60816 192.93218,-2.4528221 236.89424,0.32597091 318.0217,5.4400519 384.02743,74.26215 384.02743,153.75436 c 0,25.29165 -3.53927,51.30681 -8.3251,71.96296 40.42279,28.55216 66.85138,75.62751 66.85138,128.78539 C 442.55371,441.36504 371.96261,512 285.24122,512 Z m -70.79156,-65.7207 h 70.79156 c 50.56137,0 91.66696,-41.19642 91.66696,-91.77659 0,-25.21021 -10.17617,-48.04317 -26.66664,-64.67458 -31.2113,59.44086 -75.65883,110.74454 -135.79188,156.45117 z M 135.05111,262.68541 v 158.98817 c 72.40145,-46.18898 122.07645,-97.09175 155.21712,-158.8253 -1.6882,-0.0814 -3.3764,-0.12215 -5.06773,-0.12215 H 135.09182 Z m 0,-65.7207 h 150.19011 c 9.85356,0 19.46909,0.9271 28.79959,2.65915 2.41485,-13.33019 4.34422,-29.51998 4.34422,-45.8695 0,-45.46546 -38.41199,-84.88849 -85.63455,-87.82827 -25.70196,-1.65093 -50.11662,7.1277 -68.74004,24.68559 -18.66414,17.5582 -28.95933,41.31825 -28.95933,66.92938 v 39.46437 z"
+     fill="#fefefe"
+     id="path190"
+     style="stroke-width:31.3209;fill:#ffffff" />
+</svg>
