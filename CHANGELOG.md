@@ -6,6 +6,10 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 
+## [1.16.0] - 2023-06-12
+- Updated Riverty logo to the corporate logo.
+- Updated payment method SEPA logo.
+
 ## [1.15.0] - 2023-03-27
 - Added SEPA logo.
 
