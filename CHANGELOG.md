@@ -6,6 +6,11 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 
+## [1.18.0] - 2023-08-25
+- Improved Bancontact logo. [#8](https://github.com/pronamic/wp-pay-logos/issues/8)
+- Improved Klarna logo. [pronamic/pronamicpay.com#32](https://github.com/pronamic/pronamicpay.com/issues/32)
+- Added Klarna icon. [pronamic/pronamicpay.com#32](https://github.com/pronamic/pronamicpay.com/issues/32)
+
 ## [1.17.0] - 2023-06-12
 - Added Billie.
 
@@ -141,7 +146,11 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.14.0...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/1.18.0...HEAD
+[1.18.0]: https://github.com/pronamic/wp-pay-logos/compare/1.17.0...1.18.0
+[1.17.0]: https://github.com/pronamic/wp-pay-logos/compare/1.16.0...1.17.0
+[1.16.0]: https://github.com/pronamic/wp-pay-logos/compare/1.15.0...1.16.0
+[1.15.0]: https://github.com/pronamic/wp-pay-logos/compare/1.14.0...1.15.0
 [1.14.0]: https://github.com/pronamic/wp-pay-logos/compare/1.13.0...1.14.0
 [1.13.0]: https://github.com/pronamic/wp-pay-logos/compare/1.12.0...1.13.0
 [1.12.0]: https://github.com/pronamic/wp-pay-logos/compare/1.11.0...1.12.0
