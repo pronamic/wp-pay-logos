@@ -7,7 +7,7 @@
 	"require": {},
 	"scripts": {
 		"build": [
-			"rsync --delete --archive --relative --exclude-from=.build-ignore ./src/ ./dist/",
+			"rsync --recursive --delete --exclude-from=.build-ignore ./src/ ./dist/",
 			"svgo --recursive --folder ./dist/"
 		]
 	}
