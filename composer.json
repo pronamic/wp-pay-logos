@@ -1,9 +1,8 @@
 {
-    "require-dev": {
-        "symfony/filesystem": "^5.1",
-        "symfony/finder": "^5.1",
-        "symfony/console": "^5.1"
-    },
-    "require": {
-    }
+	"require-dev": {
+		"symfony/filesystem": "^5.1",
+		"symfony/finder": "^5.1",
+		"symfony/console": "^5.1"
+	},
+	"require": {}
 }
