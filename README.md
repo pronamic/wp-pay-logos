@@ -63,26 +63,6 @@ The `max-width` of the actual logo is `512` and the `max-height` is `288`.
 - https://graphicdesign.stackexchange.com/questions/74356/correctly-vertically-center-text-in-a-box
 - https://javier.xyz/visual-center/
 
-## Requirements
-
-### pngquant
-
-```
-brew install pngquant
-```
-
-- https://formulae.brew.sh/formula/pngquant
-- https://pngquant.org/
-
-### Inkscape
-
-```
-brew install --cask inkscape
-```
-
-- https://formulae.brew.sh/cask/inkscape
-- https://inkscape.org/
-
 ## Other libraries
 
 After Pronamic launched this pay logos libraries a number of other (Dutch) payment providers have followed our example:
