@@ -83,19 +83,6 @@ brew install --cask inkscape
 - https://formulae.brew.sh/cask/inkscape
 - https://inkscape.org/
 
-## Toolbox
-
-### Examples
-
-```
-bin/toolbox all
-```
-
-```
-bin/toolbox all --path=methods/maestro
-bin/toolbox all --path=methods/mastercard
-```
-
 ## Other libraries
 
 After Pronamic launched this pay logos libraries a number of other (Dutch) payment providers have followed our example:
