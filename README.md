@@ -18,7 +18,6 @@
 - [SVGO](#svgo)
 - [Sizes](#sizes)
 - [Center](#center)
-- [Requirements](#requirements)
 
 ## CDN
 
