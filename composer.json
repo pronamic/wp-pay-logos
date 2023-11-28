@@ -4,5 +4,11 @@
 		"symfony/finder": "^5.1",
 		"symfony/console": "^5.1"
 	},
-	"require": {}
+	"require": {},
+	"scripts": {
+		"build": [
+			"rsync --delete --archive --include '*/'  --include='*.svg' --exclude='*' --exclude='src-*' ./src/ ./dist/",
+			"svgo --recursive --folder ./dist/"
+		]
+	}
 }
