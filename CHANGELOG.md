@@ -6,6 +6,10 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 
+## [2.0.0] - 2024-05-15
+- Removed all PNG files, switched to SVG only.
+- Added iDEAL in3 logo.
+
 ## [1.19.0] - 2023-09-11
 - Add iDEAL issuer N26 logo.
 
