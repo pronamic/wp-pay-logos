@@ -22,7 +22,7 @@ The official documents only mention CYMK color codes, we have extracted the RGB 
 | ---- | ----- |
 | RGB | `16 41 143` |
 | HEX/HTML | `10298F` |
-| CMYM | `0 25 100 0` |
+| CMYK | `0 25 100 0` |
 
 #### SEPA Blue
 
@@ -30,7 +30,7 @@ The official documents only mention CYMK color codes, we have extracted the RGB 
 | ---- | ----- |
 | RGB | `255 190 0` |
 | HEX/HTML | `FFBE00` |
-| CMYM | `100 75 100 0` |
+| CMYK | `100 75 100 0` |
 
 ## Mar 16, 2023
 
