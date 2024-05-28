@@ -1,6 +1,6 @@
 # ING
 
-The ING logos and icons were taken from the 'LogoGuidelines.pdf' document from https://www.ing.be/en/individuals/services/ing-corporate-logo.
+The ING logos and icons were taken from the `LogoGuidelines.pdf` document from https://www.ing.be/en/individuals/services/ing-corporate-logo.
 
 ## Colors
 
