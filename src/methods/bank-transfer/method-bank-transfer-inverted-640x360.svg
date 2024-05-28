@@ -5,7 +5,7 @@
    viewBox="0 0 640 360"
    version="1.1"
    id="svg1"
-   sodipodi:docname="method-bank-transfer-640x360.svg"
+   sodipodi:docname="method-bank-transfer-inverted-640x360.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,16 +23,16 @@
      inkscape:pagecheckerboard="true"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.36875"
-     inkscape:cx="271.18644"
-     inkscape:cy="343.05085"
-     inkscape:window-width="1792"
-     inkscape:window-height="1006"
+     inkscape:cx="269.83051"
+     inkscape:cy="344.40678"
+     inkscape:window-width="1312"
+     inkscape:window-height="449"
      inkscape:window-x="0"
      inkscape:window-y="25"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg1" />
   <path
      d="m 312.93657,37.43451 -126.0123,54.005278 c -7.87577,3.37533 -12.2637,11.813652 -10.51978,20.139462 1.74392,8.32582 9.05713,14.40141 17.60797,14.40141 v 4.50044 c 0,7.48198 6.01934,13.50132 13.50132,13.50132 h 225.02197 c 7.482,0 13.50132,-6.01934 13.50132,-13.50132 v -4.50044 c 8.55083,0 15.92032,-6.01934 17.60795,-14.40141 1.6877,-8.38206 -2.70024,-16.820387 -10.51977,-20.139462 L 327.11296,37.43451 c -4.50044,-1.91268 -9.67595,-1.91268 -14.17639,0 z m -64.91884,124.54967 h -36.00352 v 110.42953 c -0.33753,0.16877 -0.67506,0.39379 -1.01259,0.61881 l -27.00264,18.00176 c -6.58189,4.38793 -9.56343,12.60123 -7.25696,20.19572 2.30648,7.59449 9.33841,12.77 17.27044,12.77 h 252.02461 c 7.93205,0 14.90771,-5.17551 17.21418,-12.77 2.30646,-7.59449 -0.61883,-15.80779 -7.25697,-20.19572 l -27.00263,-18.00176 c -0.33753,-0.22502 -0.67506,-0.39379 -1.0126,-0.61881 V 161.98418 H 392.0318 V 269.99472 H 369.5296 V 161.98418 H 333.52608 V 269.99472 H 306.52345 V 161.98418 h -36.00352 v 108.01054 h -22.5022 z m 72.00703,-90.008792 a 18.001758,18.001758 0 1 1 0,36.003512 18.001758,18.001758 0 1 1 0,-36.003512 z"
      id="path1-8"
-     style="stroke-width:0.562555" />
+     style="stroke-width:0.562555;fill:#f9f9f9" />
 </svg>

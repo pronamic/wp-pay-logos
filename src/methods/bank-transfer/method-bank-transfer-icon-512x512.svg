@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="method-bank-transfer-icon-512x512.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="190.91525"
+     inkscape:cy="346.0339"
+     inkscape:window-width="1792"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <clipPath
+     id="a">
+    <path
+       d="m0 0h512v512h-512z"
+       id="path1" />
+  </clipPath>
+  <path
+     d="M 243.4455,2.6047605 19.471803,98.593486 C 5.4734472,104.59278 -2.3256367,119.59102 0.77399924,134.38928 c 3.09963586,14.79826 16.09810876,25.597 31.29632376,25.597 v 7.99906 c 0,13.29843 10.698743,23.99718 23.997182,23.99718 H 456.02053 c 13.29844,0 23.99718,-10.69875 23.99718,-23.99718 v -7.99906 c 15.19821,0 28.29668,-10.69875 31.29632,-25.597 2.99965,-14.89825 -4.79943,-29.89649 -18.6978,-35.795794 L 268.64254,2.6047605 c -7.99906,-3.39960067 -17.19798,-3.39960067 -25.19704,0 z M 128.05905,223.97876 H 64.066565 V 420.2557 c -0.59993,0.29997 -1.199859,0.69992 -1.799789,1.09988 L 14.272414,453.35182 C 2.5737878,461.1509 -2.7255898,475.74919 1.3739287,489.2476 5.4734472,502.74602 17.971979,511.94494 32.070323,511.94494 H 480.01771 c 14.09834,0 26.49689,-9.19892 30.5964,-22.69734 4.09952,-13.49841 -1.09987,-28.0967 -12.89848,-35.89578 l -47.99436,-31.99624 c -0.59993,-0.39996 -1.19986,-0.69992 -1.79979,-1.09988 V 223.97876 h -63.8925 v 191.97745 h -39.9953 V 223.97876 H 280.0412 V 415.95621 H 232.04683 V 223.97876 h -63.99248 v 191.97745 h -39.9953 z M 256.04402,63.99755 a 31.996242,31.996242 0 1 1 0,63.99248 31.996242,31.996242 0 1 1 0,-63.99248 z"
+     id="path1-5"
+     style="fill:#1a1a1a;stroke-width:0.999883" />
+</svg>
