@@ -10,6 +10,7 @@ We found some official branding documents:
 
 - https://www.europeanpaymentscouncil.eu/document-library/other/sepa-logo-vector-format
 - https://www.europeanpaymentscouncil.eu/document-library/other/sepa-logo-visual-identity-guidelines
+- https://www.europeanpaymentscouncil.eu/document-library/other/terms-and-conditions-usage-sepa-logo
 
 ### Colors
 
