@@ -6,6 +6,12 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 
+## [2.1.0] - 2024-05-29
+- Fixed ING icon, used versions from the ING `LogoGuidelines.pdf` file.
+- Recreated ING logo from the ING `LogoGuidelines.pdf` file.
+- Changed colors of the SEPA logo, following guidelines on https://www.europeanpaymentscouncil.eu/.
+- Changed bank transfer logo, we now use the free `building-columns` icon from Font Awesome.
+
 ## [2.0.0] - 2024-05-15
 - Removed all PNG files, switched to SVG only.
 - Added iDEAL in3 logo.
