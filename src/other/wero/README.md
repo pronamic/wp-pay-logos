@@ -4,8 +4,6 @@ https://wero-wallet.eu/nl
 
 ### Colors
 
-The official documents only mention CYMK color codes, we have extracted the RGB values from the JPG files.
-
 #### Wero Black
 
 | Type | Value |
