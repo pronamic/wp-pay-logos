@@ -1,6 +1,6 @@
 # Wero
 
-https://wero-wallet.eu/nl
+https://wero-wallet.eu/
 
 ### Colors
 
