@@ -20,16 +20,16 @@ The official documents only mention CYMK color codes, we have extracted the RGB 
 
 | Type | Value |
 | ---- | ----- |
-| RGB | `16 41 143` |
-| HEX/HTML | `10298F` |
+| RGB | `255 190 0` |
+| HEX/HTML | `FFBE00` |
 | CMYK | `0 25 100 0` |
 
 #### SEPA Blue
 
 | Type | Value |
 | ---- | ----- |
-| RGB | `255 190 0` |
-| HEX/HTML | `FFBE00` |
+| RGB | `16 41 143` |
+| HEX/HTML | `10298F` |
 | CMYK | `100 75 100 0` |
 
 ## Mar 16, 2023
