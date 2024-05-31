@@ -30,7 +30,7 @@ The official documents only mention CYMK color codes, we have extracted the RGB 
 | ---- | ----- |
 | RGB | `16 41 143` |
 | HEX/HTML | `10298F` |
-| CMYK | `100 75 100 0` |
+| CMYK | `100 75 0 0` |
 
 ## Mar 16, 2023
 
