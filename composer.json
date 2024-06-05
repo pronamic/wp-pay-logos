@@ -1,10 +1,15 @@
 {
+	"autoload": {
+		"psr-4": {
+			"Pronamic\\WpPayLogos\\": "php/"
+		}
+	},
+	"require": {},
 	"require-dev": {
 		"symfony/filesystem": "^5.1",
 		"symfony/finder": "^5.1",
 		"symfony/console": "^5.1"
 	},
-	"require": {},
 	"scripts": {
 		"build": [
 			"rsync --recursive --delete --exclude-from=.build-ignore ./src/ ./dist/",
