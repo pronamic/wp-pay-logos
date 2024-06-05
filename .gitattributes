@@ -1,0 +1,6 @@
+/.build-ignore     export-ignore
+/.editorconfig     export-ignore
+/.gitattributes    export-ignore
+/.github/          export-ignore
+/.gitignore        export-ignore
+/.npmignore        export-ignore
