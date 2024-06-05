@@ -1,10 +1,21 @@
 {
+	"name": "pronamic/wp-pay-logos",
+	"type": "library",
+	"license": "GPL-2.0-or-later",
 	"autoload": {
 		"psr-4": {
 			"Pronamic\\WpPayLogos\\": "php/"
 		}
 	},
-	"require": {},
+	"authors": [
+		{
+			"name": "Pronamic",
+			"email": "info@pronamic.nl"
+		}
+	],
+	"require": {
+		"php": ">=8.1"
+	},
 	"require-dev": {
 		"symfony/filesystem": "^5.1",
 		"symfony/finder": "^5.1",
