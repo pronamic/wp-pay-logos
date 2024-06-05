@@ -4,3 +4,4 @@
 /.github/          export-ignore
 /.gitignore        export-ignore
 /.npmignore        export-ignore
+/src/              export-ignore
