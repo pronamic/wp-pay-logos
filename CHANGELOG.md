@@ -22,6 +22,11 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ### Added
 
 - Added Wero logo.
+- Added PHP `ImageService` class.
+
+### Removed
+
+- Removed Svenska Handelsbanken, is no longer an iDEAL issuer.
 
 [2.2.0]: https://github.com/pronamic/wp-pay-logos/compare/v2.1.0...v2.2.0
 
