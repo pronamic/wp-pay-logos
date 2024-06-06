@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="var(--rui-color-white)"
+   viewBox="0 0 512 512"
+   class="sc-81786132-0 bmMKuq"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="ideal-issuer-revolut-icon-512x512.svg"
+   width="512"
+   height="512"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1"
+     inkscape:cx="79"
+     inkscape:cy="104.5"
+     inkscape:window-width="1448"
+     inkscape:window-height="1290"
+     inkscape:window-x="1936"
+     inkscape:window-y="370"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <path
+     clip-rule="evenodd"
+     d="M 147.07886,126.35406 H 51.70912 v 385.64433 h 95.36974 z m 299.0757,22.05256 C 446.15456,66.575706 379.51814,1.66e-6 297.60622,1.66e-6 H 51.70912 V 82.35688 h 234.20531 c 37.06972,0 67.77559,29.12266 68.4549,64.91574 0.33885,17.92203 -6.38805,34.83689 -18.93986,47.62751 -12.55666,12.79384 -29.33436,19.84506 -47.24155,19.84506 h -91.23565 c -3.23905,0 -5.87543,2.6317 -5.87543,5.87171 v 73.19551 c 0,1.24567 0.38451,2.43485 1.10787,3.43687 L 346.97927,512 H 460.29088 L 305.13666,296.66195 c 78.13621,-3.92255 141.0179,-69.5731 141.0179,-148.25533 z"
+     fill-rule="evenodd"
+     id="path1"
+     style="fill:#1a1a1a;stroke-width:16.1355"
+     inkscape:label="path1"
+     sodipodi:nodetypes="cccccssccsccssssccccs" />
+</svg>
