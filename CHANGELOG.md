@@ -6,6 +6,25 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 
+[unreleased]: https://github.com/wp-pay/logos/compare/v2.2.0...HEAD
+
+## [2.2.0] - 2024-06-06
+
+### Fixed
+
+- Fixed swapped RGB and HEX colors in SEPA readme.
+
+### Changed
+
+- Updated SEPA readme with updated CMYK values.
+- All iDEAL issuer logos revised.
+
+### Added
+
+- Added Wero logo.
+
+[2.2.0]: https://github.com/pronamic/wp-pay-logos/compare/v2.1.0...v2.2.0
+
 ## [2.1.0] - 2024-05-29
 - Fixed ING icon, used versions from the ING `LogoGuidelines.pdf` file.
 - Recreated ING logo from the ING `LogoGuidelines.pdf` file.
@@ -159,12 +178,13 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## 1.0.0
 - First release.
 
-[unreleased]: https://github.com/wp-pay/logos/compare/1.19.0...HEAD
-[1.19.0]: https://github.com/pronamic/wp-pay-logos/compare/1.18.0...1.19.0
-[1.18.0]: https://github.com/pronamic/wp-pay-logos/compare/1.17.0...1.18.0
-[1.17.0]: https://github.com/pronamic/wp-pay-logos/compare/1.16.0...1.17.0
-[1.16.0]: https://github.com/pronamic/wp-pay-logos/compare/1.15.0...1.16.0
-[1.15.0]: https://github.com/pronamic/wp-pay-logos/compare/1.14.0...1.15.0
+[2.1.0]: https://github.com/pronamic/wp-pay-logos/compare/v2.0.0...v2.1.0
+[2.0.0]: https://github.com/pronamic/wp-pay-logos/compare/v1.19.0...v2.0.0
+[1.19.0]: https://github.com/pronamic/wp-pay-logos/compare/v1.18.0...v1.19.0
+[1.18.0]: https://github.com/pronamic/wp-pay-logos/compare/v1.17.0...v1.18.0
+[1.17.0]: https://github.com/pronamic/wp-pay-logos/compare/v1.16.0...v1.17.0
+[1.16.0]: https://github.com/pronamic/wp-pay-logos/compare/v1.15.0...v1.16.0
+[1.15.0]: https://github.com/pronamic/wp-pay-logos/compare/1.14.0...v1.15.0
 [1.14.0]: https://github.com/pronamic/wp-pay-logos/compare/1.13.0...1.14.0
 [1.13.0]: https://github.com/pronamic/wp-pay-logos/compare/1.12.0...1.13.0
 [1.12.0]: https://github.com/pronamic/wp-pay-logos/compare/1.11.0...1.12.0
