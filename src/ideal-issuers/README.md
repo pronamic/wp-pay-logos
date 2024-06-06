@@ -19,6 +19,13 @@ We have reported this to Mollie in the following issue:
 
 The images in the `32` `×` `24` format of these iDEAL issuers are therefore made by Pronamic.
 
+## iDEAL Hub
+
+The iDEAL Hub is also equipped with iDEAL issuer SVGs, a reference is listed in a minified JavaScript file:
+https://pay.ideal.nl/static/js/main.a4ea3982.js
+
+Most iDEAL Hub issuer SVG images are in `40` `×` `40` but there are also some in different sizes and proportions. The images in the `40` `×` `40` format of these iDEAL issuers are therefore made by Pronamic.
+
 ## Links
 
 - https://github.com/pronamic/ideal-issuers
