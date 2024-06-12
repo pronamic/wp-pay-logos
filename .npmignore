@@ -9,6 +9,9 @@
 # Tests
 /tests/
 
+# Docs
+/docs/
+
 # Composer
 /vendor/
 /composer.json
