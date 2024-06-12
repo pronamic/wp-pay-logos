@@ -6,6 +6,9 @@
 # Source
 /src/
 
+# Tests
+/tests/
+
 # Composer
 /vendor/
 /composer.json
