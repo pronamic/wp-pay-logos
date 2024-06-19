@@ -6,7 +6,20 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 
-[unreleased]: https://github.com/wp-pay/logos/compare/v2.2.0...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/v2.2.1...HEAD
+
+## [2.2.1] - 2024-06-19
+
+### Changed
+
+- Ignore `/docs/` folder in export.
+- Ignore `/tests/` folder in export.
+
+### Removed
+
+- Removed outdated iDEAL logo documentation.
+
+[2.2.1]: https://github.com/pronamic/wp-pay-logos/compare/v2.2.0...v2.2.1
 
 ## [2.2.0] - 2024-06-06
 
