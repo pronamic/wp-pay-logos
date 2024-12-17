@@ -8,6 +8,16 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 [unreleased]: https://github.com/wp-pay/logos/compare/v2.2.1...HEAD
 
+## [2.2.2] - 2024-12-17
+
+### Commits
+
+- Updated from Mollie API. ([a6fb8b7](https://github.com/pronamic/wp-pay-logos/commit/a6fb8b7a3e6b8380a482e46236d4ace95d9653e2))
+
+Full set of changes: [`2.2.1...2.2.2`][2.2.2]
+
+[2.2.2]: https://github.com/pronamic/wp-pay-logos/compare/v2.2.1...v2.2.2
+
 ## [2.2.1] - 2024-06-19
 
 ### Changed
