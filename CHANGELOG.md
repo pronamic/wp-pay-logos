@@ -8,6 +8,18 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 [unreleased]: https://github.com/wp-pay/logos/compare/v2.2.1...HEAD
 
+## [2.2.3] - 2025-02-23
+
+### Changed
+
+- Updated to the new Woo.
+  - https://woocommerce.com/posts/introducing-the-new-woo-brand/
+  - https://woocommerce.com/brand-and-logo-guidelines/
+
+Full set of changes: [`2.2.2...2.2.3`][2.2.3]
+
+[2.2.3]: https://github.com/pronamic/wp-pay-logos/compare/v2.2.2...v2.2.3
+
 ## [2.2.2] - 2024-12-17
 
 ### Commits
