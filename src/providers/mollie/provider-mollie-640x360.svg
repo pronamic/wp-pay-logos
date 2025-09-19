@@ -10,7 +10,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">Mollie logo black</title>
   <defs
      id="defs3" />
   <sodipodi:namedview
@@ -24,12 +29,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1"
      inkscape:cx="319"
-     inkscape:cy="173.5"
-     inkscape:window-width="1792"
-     inkscape:window-height="998"
+     inkscape:cy="174"
+     inkscape:window-width="896"
+     inkscape:window-height="245"
      inkscape:window-x="0"
      inkscape:window-y="25"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg3" />
   <g
      fill-rule="evenodd"
@@ -56,4 +61,13 @@
        d="m 435.51951,64.471668 c 12.64318,0 23.21419,8.868314 25.83692,20.719424 H 409.6826 c 2.62274,-11.85111 13.19375,-20.719424 25.83691,-20.719424 m 0.35738,-16.931874 c -25.02957,0.324304 -45.24263,20.568783 -45.53744,45.603253 -0.30181,25.566973 20.57093,46.702783 46.14207,46.719323 16.9006,0.011 31.682,-9.05902 39.73489,-22.59521 0.0115,-0.019 0.004,-0.0445 -0.0165,-0.0546 L 460.79384,109.629 c -4.88008,8.07758 -13.74331,13.47764 -23.86886,13.47764 -13.69427,0 -25.08013,-9.87926 -27.42256,-22.90147 h 70.49743 v -8.568035 c 0,-24.265249 -19.85718,-44.412136 -44.12296,-44.097341"
        id="path3" />
   </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Mollie logo black</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
