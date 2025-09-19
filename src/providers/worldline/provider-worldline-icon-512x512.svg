@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="provider-worldline-icon-512x512.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">Worldline icon white</title>
+  <defs
+     id="defs1">
+    <clipPath
+       id="clip-path"
+       transform="translate(-0.0007 -0.0004)">
+      <rect
+         class="cls-1"
+         width="955.50153"
+         height="97.364197"
+         id="rect1"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath2"
+       transform="translate(-0.0007 -0.0004)">
+      <rect
+         class="cls-1"
+         width="955.50153"
+         height="97.364197"
+         id="rect2"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1"
+     inkscape:cx="257"
+     inkscape:cy="256"
+     inkscape:window-width="896"
+     inkscape:window-height="245"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <g
+     class="cls-2"
+     clip-path="url(#clip-path)"
+     id="g7"
+     transform="matrix(2.6652112,0,0,2.6652112,-2034.6134,129.39287)">
+    <path
+       class="cls-3"
+       d="m 796.0582,22.797 a 96.0858,96.0858 0 0 0 -9.6494,9.7618 c 14.4432,14.5048 24.8655,36.6449 28.371,62.2833 H 828.675 C 825.8771,72.2484 818.122,51.3893 806.1539,34.7543 A 98.7808,98.7808 0 0 0 796.0582,22.797"
+       transform="translate(-7e-4,-4e-4)"
+       id="path1-2"
+       style="fill:#46beaa" />
+    <path
+       class="cls-3"
+       d="m 779.1281,42.235 a 95.2838,95.2838 0 0 0 -7.08,12.7774 c 8.27,10.31 14.356,24.1324 17.1285,39.8312 h 13.9424 c -2.631,-16.8673 -8.7094,-32.41 -17.7782,-44.9842 a 82.1861,82.1861 0 0 0 -6.2127,-7.6244"
+       transform="translate(-7e-4,-4e-4)"
+       id="path2"
+       style="fill:#46beaa" />
+    <path
+       class="cls-3"
+       d="m 763.3974,94.8421 h 13.9859 a 80.11,80.11 0 0 0 -10.3679,-26.1646 95.8958,95.8958 0 0 0 -3.618,26.1646"
+       transform="translate(-7e-4,-4e-4)"
+       id="path3"
+       style="fill:#46beaa" />
+    <path
+       class="cls-3"
+       d="m 915.19,17.1079 q -2.7162,-1.96 -5.5777,-3.7342 -1.301,1.3554 -2.5729,2.758 a 134.9611,134.9611 0 0 0 -30.4286,57.9069 192.2989,192.2989 0 0 0 -8.5824,-30.98 146.6484,146.6484 0 0 1 24.5531,-38.0351 Q 889.2284,3.777 885.7592,2.7772 a 153.24,153.24 0 0 0 -21.0842,31.8911 160.52,160.52 0 0 0 -16.9,-30.131 c -1.0741,-1.4952 -2.1665,-2.9467 -3.2769,-4.3729 a 95.1082,95.1082 0 0 0 -14.8459,3.5273 c 11.4928,13.3037 20.8736,30.1637 27.2968,49.3934 a 169.738,169.738 0 0 0 -6.0132,21.8825 c -4.5252,-20.6341 -12.6613,-39.5735 -23.9727,-55.32 a 119.1656,119.1656 0 0 0 -9.1268,-11.2388 95.4131,95.4131 0 0 0 -12.2657,7.0365 c 18.17,18.3951 31.0455,46.7334 34.6853,79.3974 h 14.3923 a 172.8236,172.8236 0 0 1 5.6618,-30.4607 190.9664,190.9664 0 0 1 5.349,30.4612 h 13.9024 c 4.108,-35.7232 19.3168,-59.7721 32.3919,-74.2878 1.0742,-1.194 2.1519,-2.3334 3.237,-3.4475"
+       transform="translate(-7e-4,-4e-4)"
+       id="path4"
+       style="fill:#46beaa" />
+    <path
+       class="cls-3"
+       d="m 933.2384,34.0506 q -2.1231,-2.58 -4.4165,-5.0079 c -14.7661,15.1254 -27.1081,37.0623 -30.962,65.8 h 6.6772 c 3.941,-27.8956 16.0617,-46.8531 26.5311,-58.4657 0.7185,-0.7984 1.4443,-1.5713 2.17,-2.3262"
+       transform="translate(-7e-4,-4e-4)"
+       id="path5"
+       style="fill:#46beaa" />
+    <path
+       class="cls-3"
+       d="m 922.9365,94.8421 h 6.71 A 86.7116,86.7116 0 0 1 946.8512,56.14 q -1.4806,-3.3423 -3.1972,-6.5466 c -9.62,11.2352 -17.4841,26.3243 -20.7175,45.2491"
+       transform="translate(-7e-4,-4e-4)"
+       id="path6"
+       style="fill:#46beaa" />
+    <path
+       class="cls-3"
+       d="M 954.157,79.3557 A 69.73,69.73 0 0 0 948.2454,94.84 h 7.2578 A 89.7791,89.7791 0 0 0 954.157,79.3554"
+       transform="translate(-7e-4,-4e-4)"
+       id="path7"
+       style="fill:#46beaa" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Worldline icon white</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
