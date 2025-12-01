@@ -8,6 +8,12 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 [unreleased]: https://github.com/wp-pay/logos/compare/v2.3.0...HEAD
 
+## [2.3.2] - 2025-12-01
+
+### Added
+
+- Added `method-ideal-wero-wc-51x32.svg`.
+
 ## [2.3.1] - 2025-12-01
 
 ### Changed
@@ -234,6 +240,7 @@ Full set of changes: [`2.2.1...2.2.2`][2.2.2]
 ## 1.0.0
 - First release.
 
+[2.3.2]: https://github.com/pronamic/wp-pay-logos/compare/v2.3.1...v2.3.2
 [2.3.1]: https://github.com/pronamic/wp-pay-logos/compare/v2.3.0...v2.3.1
 [2.3.0]: https://github.com/pronamic/wp-pay-logos/compare/v2.2.3...v2.3.0
 [2.2.3]: https://github.com/pronamic/wp-pay-logos/compare/v2.2.2...v2.2.3
