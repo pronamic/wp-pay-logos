@@ -6,7 +6,17 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 
 ## [Unreleased][unreleased]
 
-[unreleased]: https://github.com/wp-pay/logos/compare/v2.2.1...HEAD
+[unreleased]: https://github.com/wp-pay/logos/compare/v2.3.0...HEAD
+
+## [2.3.0] - 2025-12-01
+
+### Added
+
+- Added new "iDEAL | Wero" co-branded visual assets for iDEAL's transition to Wero.
+
+### Changed
+
+- Updated Buckaroo assets.
 
 ## [2.2.3] - 2025-02-23
 
@@ -218,6 +228,11 @@ Full set of changes: [`2.2.1...2.2.2`][2.2.2]
 ## 1.0.0
 - First release.
 
+[2.3.0]: https://github.com/pronamic/wp-pay-logos/compare/v2.2.3...v2.3.0
+[2.2.3]: https://github.com/pronamic/wp-pay-logos/compare/v2.2.2...v2.2.3
+[2.2.2]: https://github.com/pronamic/wp-pay-logos/compare/v2.2.1...v2.2.2
+[2.2.1]: https://github.com/pronamic/wp-pay-logos/compare/v2.2.0...v2.2.1
+[2.2.0]: https://github.com/pronamic/wp-pay-logos/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/pronamic/wp-pay-logos/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/pronamic/wp-pay-logos/compare/v1.19.0...v2.0.0
 [1.19.0]: https://github.com/pronamic/wp-pay-logos/compare/v1.18.0...v1.19.0
