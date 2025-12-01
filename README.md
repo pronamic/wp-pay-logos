@@ -4,7 +4,7 @@
 	</a>
 </p>
 
-<h1 align="center">WordPress Pay » Logos</h3>
+<h1 align="center">WordPress Pay Logos</h3>
 
 <p align="center">
 	Logos for the WordPress payment processing library.
